@@ -8,7 +8,7 @@ export const LoginForm = () => {
         <form>
             <input type="email" name="email" placeholder="Digite seu email" required/>
             <input type="password" name="senha" placeholder="Digite sua senha" required/>
-            <div className={style.esqueceu_senha}><p>Esqueceu senha?</p></div>
+            <div className={style.esqueceu_senha}><Link href="/recuperar-senha">Esqueceu a senha?</Link></div>
             <button type="submit">Login</button>
         </form>
         <div className={style.linha}></div>
