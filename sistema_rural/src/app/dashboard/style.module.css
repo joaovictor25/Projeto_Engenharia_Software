@@ -1,0 +1,108 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.menu{
+    padding: 10px 50px 10px 50px;
+}
+.menu{
+     width: 100%;
+    background-color: #006B64;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.nav_menu ul {
+    display: flex;
+    gap: 50px;
+    color: #ffffff;
+    font-weight: 500;
+    list-style: none; /* Remove marcadores padrão */
+    padding: 0;
+    margin: 0;
+}
+
+.nav_menu ul li {
+    position: relative;
+    padding-left: 25px; /* espaço para a imagem */
+}
+.nav_menu ul .cotacao {
+    position: relative;
+    padding-left: 30px; /* espaço para a imagem */
+}
+.nav_menu ul .home::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url('../../../public/assets/botao-home.png'); /* substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav_menu ul .cotacao::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height:25px;
+    background-image: url('../../../public/assets/real-brasileiro.png'); /* substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav_menu ul .contato::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url('../../../public/assets/o-email.png'); /* substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.user p{
+    color: #fff;
+    font-weight: 500;
+}
+
+.user{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+ }
+
+
+
+
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+.sidebar{
+    flex: 25%;
+    background-color: red;
+    padding: 50px;
+}
+
+
+.content{
+    width: 75%;
+    background-color: blue;
+    padding: 50px;
+}
