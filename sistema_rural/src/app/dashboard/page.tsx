@@ -22,7 +22,12 @@ export default function Page(){
 
             <div className={style.main}>
                 <div className={style.sidebar}>
-                    Barra lateral
+                    <button>Cadastrar novo item</button>
+                    <ul>
+                        <div className={style.botao}><li className={style.painel}>Painel</li></div>
+                        <div className={style.botao}><li className={style.vender}>Quero vender</li></div>
+                        <div className={style.botao}><li className={style.conta}>Minha conta</li></div>
+                    </ul> 
                 </div>
 
                 <div className={style.content}>
